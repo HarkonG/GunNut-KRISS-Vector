@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <!--===== GN_KVector_1G (Classic) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_KVector_1G</defName>
+    <label>KRISS Vector Gen.1 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>57</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GNKV_BaseHumanMakeableGun">
+    <defName>GN_KVector_1G</defName>
+    <label>KRISS Vector Gen.1</label>
+    <description>A uniquely shaped, lightweight SMG designed for close-quarters fighting.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_KVector_1G</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.01,0,0)</eastOffset>
+        <westOffset>(-0.01,0,0)</westOffset>
+      </li>
+    </comps>
+    <uiIconScale>1.4</uiIconScale>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_KVector_1G</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>20</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_KRISSVector_1G</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== GN_KVector_2G (Gun Nut) =====-->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_KVector_2G</defName>
+    <label>KRISS Vector Gen.2 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GNKV_BaseHumanMakeableGun">
+    <defName>GN_KVector_2G</defName>
+    <label>KRISS Vector Gen.2</label>
+    <description>A uniquely shaped, lightweight SMG designed for close-quarters fighting.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_KVector_2G</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.01,0,0)</eastOffset>
+        <westOffset>(-0.01,0,0)</westOffset>
+      </li>
+    </comps>
+    <uiIconScale>1.4</uiIconScale>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.79</AccuracyShort>
+      <AccuracyMedium>0.49</AccuracyMedium>
+      <AccuracyLong>0.31</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_KVector_2G</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>25</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_KRISSVector_2G</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== GN_KVector_3G (Charge) =====-->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_KVector_3G</defName>
+    <label>KRISS Vector Gen.3 charge shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GNKV_BaseHumanMakeableGun">
+    <defName>GN_KVector_3G</defName>
+    <label>KRISS Vector Gen.3</label>
+    <description>A uniquely shaped, lightweight SMG designed for close-quarters fighting.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_KVector_3G</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.01,0,0)</eastOffset>
+        <westOffset>(-0.01,0,0)</westOffset>
+      </li>
+    </comps>
+    <uiIconScale>1.4</uiIconScale>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.98</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.51</AccuracyMedium>
+      <AccuracyLong>0.33</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_KVector_3G</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>25</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_KRISSVector_3G</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags Inherit="False">
+      <li>SpacerGun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>
