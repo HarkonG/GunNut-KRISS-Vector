@@ -64,11 +64,11 @@
                         <SwayFactor>0.89</SwayFactor>
                         <Bulk>4.10</Bulk>
                         <Mass>2.70</Mass>
-                        <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+                        <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
                     </statBases>
                     <costList>
                         <Steel>30</Steel>
-                        <ComponentIndustrial>4</ComponentIndustrial>
+                        <ComponentIndustrial>5</ComponentIndustrial>
                         <Chemfuel>10</Chemfuel>
                     </costList>
                     <Properties>
@@ -77,15 +77,15 @@
                         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                        <warmupTime>0.5</warmupTime>
-                        <range>35</range>
+                        <warmupTime>0.6</warmupTime>
+                        <range>25</range>
                         <soundCast>GN_Shot_KRISSVector_1G</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>1.84</recoilAmount>
+                        <recoilAmount>1.73</recoilAmount>
                     </Properties>
                     <AmmoUser>
-                        <magazineSize>30</magazineSize>
+                        <magazineSize>25</magazineSize>
                         <reloadTime>4</reloadTime>
                         <ammoSet>AmmoSet_45ACP</ammoSet>
                     </AmmoUser>
@@ -97,20 +97,19 @@
                 </li>
 
                 <!--===== GN_KVector_2G =====-->
-
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>GN_KVector_2G</defName>
                     <statBases>
                         <WorkToMake>30700</WorkToMake>
                         <SightsEfficiency>1.1</SightsEfficiency>
                         <ShotSpread>0.13</ShotSpread>
-                        <SwayFactor>0.80</SwayFactor>
-                        <Bulk>4.20</Bulk>
-                        <Mass>3.00</Mass>
+                        <SwayFactor>0.89</SwayFactor>
+                        <Bulk>4.10</Bulk>
+                        <Mass>2.70</Mass>
                         <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
                     </statBases>
                     <costList>
-                        <Steel>35</Steel>
+                        <Steel>40</Steel>
                         <ComponentIndustrial>5</ComponentIndustrial>
                         <Chemfuel>15</Chemfuel>
                     </costList>
@@ -120,12 +119,12 @@
                         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
                         <burstShotCount>7</burstShotCount>
                         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                        <warmupTime>0.5</warmupTime>
-                        <range>35</range>
+                        <warmupTime>0.6</warmupTime>
+                        <range>25</range>
                         <soundCast>GN_Shot_KRISSVector_2G</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>1.6</recoilAmount>
+                        <recoilAmount>1.31</recoilAmount>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>40</magazineSize>
@@ -140,23 +139,22 @@
                 </li>
 
                 <!--===== GN_KVector_3G =====-->
-
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>GN_KVector_3G</defName>
                     <statBases>
                         <WorkToMake>30900</WorkToMake>
                         <SightsEfficiency>1.2</SightsEfficiency>
                         <ShotSpread>0.13</ShotSpread>
-                        <SwayFactor>0.80</SwayFactor>
-                        <Bulk>4.20</Bulk>
-                        <Mass>3.00</Mass>
+                        <SwayFactor>0.89</SwayFactor>
+                        <Bulk>5.10</Bulk>
+                        <Mass>2.7</Mass>
                         <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
                     </statBases>
                     <costList>
-                        <Steel>55</Steel>
+                        <Steel>35</Steel>
                         <Plasteel>25</Plasteel>
                         <Chemfuel>15</Chemfuel>
-                        <ComponentIndustrial>10</ComponentIndustrial>
+                        <ComponentIndustrial>9</ComponentIndustrial>
                     </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -169,11 +167,11 @@
                         <soundCast>GN_Shot_KRISSVector_3G</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>1.4</recoilAmount>
+                        <recoilAmount>1.44</recoilAmount>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>60</magazineSize>
-                        <reloadTime>4</reloadTime>
+                        <reloadTime>4.9</reloadTime>
                         <ammoSet>AmmoSet_6x18mmCharged</ammoSet>
                     </AmmoUser>
                     <FireModes>
