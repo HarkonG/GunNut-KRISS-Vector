@@ -2,9 +2,9 @@
 
 <Defs>
 
-  <!--===== GN_KVector_1G (Classic) =====-->
+  <!--===== HRK_KVector_1G (Classic) =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_KVector_1G</defName>
+    <defName>HRK_Bullet_KVector_1G</defName>
     <label>KRISS Vector Gen.1 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -17,22 +17,16 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GNKV_BaseHumanMakeableGun">
-    <defName>GN_KVector_1G</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_KVector_1G</defName>
     <label>KRISS Vector Gen.1</label>
     <description>A uniquely shaped, lightweight SMG designed for close-quarters fighting.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_KVector_1G</texPath>
+      <texPath>Things/Weapons/HRK_KVector_1G</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.9</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <eastOffset>(0.01,0,0)</eastOffset>
-        <westOffset>(-0.01,0,0)</westOffset>
-      </li>
-    </comps>
     <uiIconScale>1.4</uiIconScale>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
@@ -62,12 +56,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_KVector_1G</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_KVector_1G</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>20</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_KRISSVector_1G</soundCast>
+        <soundCast>HRK_Shot_KRISSVector_1G</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -91,12 +85,14 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
-  <!--===== GN_KVector_2G (Gun Nut) =====-->
-
+  <!--===== HRK_KVector_2G (Gun Nut) =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_KVector_2G</defName>
+    <defName>HRK_Bullet_KVector_2G</defName>
     <label>KRISS Vector Gen.2 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -109,29 +105,23 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GNKV_BaseHumanMakeableGun">
-    <defName>GN_KVector_2G</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_KVector_2G</defName>
     <label>KRISS Vector Gen.2</label>
     <description>A uniquely shaped, lightweight SMG designed for close-quarters fighting.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_KVector_2G</texPath>
+      <texPath>Things/Weapons/HRK_KVector_2G</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.9</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <eastOffset>(0.01,0,0)</eastOffset>
-        <westOffset>(-0.01,0,0)</westOffset>
-      </li>
-    </comps>
     <uiIconScale>1.4</uiIconScale>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -154,12 +144,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_KVector_2G</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_KVector_2G</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>25</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_KRISSVector_2G</soundCast>
+        <soundCast>HRK_Shot_KRISSVector_2G</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -183,12 +173,17 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
-  <!--===== GN_KVector_3G (Charge) =====-->
-
+  <!--===== HRK_KVector_3G (Charge) =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_KVector_3G</defName>
+    <defName>HRK_Bullet_KVector_3G</defName>
     <label>KRISS Vector Gen.3 charge shot</label>
     <graphicData>
       <texPath>Things/Projectile/Charge_Small</texPath>
@@ -202,22 +197,16 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GNKV_BaseHumanMakeableGun">
-    <defName>GN_KVector_3G</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_KVector_3G</defName>
     <label>KRISS Vector Gen.3</label>
     <description>A uniquely shaped, lightweight SMG designed for close-quarters fighting.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_KVector_3G</texPath>
+      <texPath>Things/Weapons/HRK_KVector_3G</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.9</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <eastOffset>(0.01,0,0)</eastOffset>
-        <westOffset>(-0.01,0,0)</westOffset>
-      </li>
-    </comps>
     <uiIconScale>1.4</uiIconScale>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
@@ -246,19 +235,16 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_KVector_3G</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_KVector_3G</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>25</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_KRISSVector_3G</soundCast>
+        <soundCast>HRK_Shot_KRISSVector_3G</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags Inherit="False">
-      <li>SpacerGun</li>
-    </weaponTags>
     <tools>
       <li>
         <label>grip</label>
@@ -278,6 +264,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
   </ThingDef>
 
 </Defs>

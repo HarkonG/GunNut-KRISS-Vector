@@ -13,9 +13,9 @@
                 <li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[
-					defName = "GN_KVector_1G" or
-					defName = "GN_KVector_2G" or											
-					defName = "GN_KVector_3G"]/tools
+					defName = "HRK_KVector_1G" or
+					defName = "HRK_KVector_2G" or											
+					defName = "HRK_KVector_3G"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -54,9 +54,9 @@
                     </value>
                 </li>
 
-                <!--===== GN_KVector_1G =====-->
+                <!--===== HRK_KVector_1G =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_KVector_1G</defName>
+                    <defName>HRK_KVector_1G</defName>
                     <statBases>
                         <WorkToMake>30500</WorkToMake>
                         <SightsEfficiency>1</SightsEfficiency>
@@ -79,7 +79,7 @@
                         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                         <warmupTime>0.6</warmupTime>
                         <range>25</range>
-                        <soundCast>GN_Shot_KRISSVector_1G</soundCast>
+                        <soundCast>HRK_Shot_KRISSVector_1G</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.73</recoilAmount>
@@ -96,9 +96,9 @@
                     </FireModes>
                 </li>
 
-                <!--===== GN_KVector_2G =====-->
+                <!--===== HRK_KVector_2G =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_KVector_2G</defName>
+                    <defName>HRK_KVector_2G</defName>
                     <statBases>
                         <WorkToMake>30700</WorkToMake>
                         <SightsEfficiency>1.1</SightsEfficiency>
@@ -121,7 +121,7 @@
                         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                         <warmupTime>0.6</warmupTime>
                         <range>25</range>
-                        <soundCast>GN_Shot_KRISSVector_2G</soundCast>
+                        <soundCast>HRK_Shot_KRISSVector_2G</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.31</recoilAmount>
@@ -138,9 +138,9 @@
                     </FireModes>
                 </li>
 
-                <!--===== GN_KVector_3G =====-->
+                <!--===== HRK_KVector_3G =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_KVector_3G</defName>
+                    <defName>HRK_KVector_3G</defName>
                     <statBases>
                         <WorkToMake>30900</WorkToMake>
                         <SightsEfficiency>1.2</SightsEfficiency>
@@ -164,7 +164,7 @@
                         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                         <warmupTime>0.5</warmupTime>
                         <range>35</range>
-                        <soundCast>GN_Shot_KRISSVector_3G</soundCast>
+                        <soundCast>HRK_Shot_KRISSVector_3G</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.44</recoilAmount>
