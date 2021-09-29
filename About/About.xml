@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Gun Nut - KRISS Vector</name>
+	<name>[HRK] Gun Nut - KRISS Vector</name>
 	<author>Harkon</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2412382876</url>
 	<packageId>Harkon.GunNut.KRISSVector</packageId>
@@ -9,7 +9,7 @@
 		<li>1.3</li>
 	</supportedVersions>
 	<description>
-	Welcome to Gun Nut - KRISS VECTOR!
+	[HRK] Gun Nut - KRISS Vector
 	</description>
 	<modDependencies>
 		<li>
