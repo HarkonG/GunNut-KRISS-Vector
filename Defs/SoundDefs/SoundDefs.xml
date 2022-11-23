@@ -3,15 +3,15 @@
 <Defs>
 
     <SoundDef>
-        <defName>HRK_Shot_KRISSVector_1G</defName>
+        <defName>HRK_Shot_KRISSVectorACP</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_KRISSVector_1G</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_KRISSVectorACP</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -28,15 +28,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_KRISSVector_2G</defName>
+        <defName>HRK_Shot_KRISSVector</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_KRISSVector_2G</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_KRISSVector</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -53,15 +53,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_KRISSVector_3G</defName>
+        <defName>HRK_Shot_KRISSVectorSD</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_KRISSVector_3G</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_KRISSVectorSD</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -77,6 +77,29 @@
         </subSounds>
     </SoundDef>
 
-
+    <SoundDef>
+        <defName>HRK_Shot_KRISSVectorCharged</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_KRISSVectorCharged</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
 
 </Defs>
