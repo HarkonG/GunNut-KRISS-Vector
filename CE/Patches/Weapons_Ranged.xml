@@ -78,7 +78,7 @@
                     <soundCast>HRK_Shot_KRISSVector</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
-                    <recoilAmount>1.73</recoilAmount>
+                    <recoilAmount>0.41</recoilAmount>
                 </Properties>
                 <AmmoUser>
                     <magazineSize>33</magazineSize>
@@ -87,26 +87,30 @@
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>Snapshot</aiAimMode>
-                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
                     <aimedBurstShotCount>3</aimedBurstShotCount>
                 </FireModes>
+                <weaponTags>
+                    <li>CE_SMG</li>
+                    <li>CE_AI_AssaultWeapon</li>
+                </weaponTags>
             </li>
 
             <!--===== HRK_KRISSVectorGenII =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>HRK_KRISSVectorGenII</defName>
                 <statBases>
-                    <WorkToMake>30500</WorkToMake>
-                    <SightsEfficiency>1</SightsEfficiency>
-                    <ShotSpread>0.16</ShotSpread>
-                    <SwayFactor>0.89</SwayFactor>
-                    <Bulk>4.10</Bulk>
-                    <Mass>2.70</Mass>
+                    <WorkToMake>33500</WorkToMake>
+                    <SightsEfficiency>1.1</SightsEfficiency>
+                    <ShotSpread>0.1</ShotSpread>
+                    <SwayFactor>1.19</SwayFactor>
+                    <Bulk>7.10</Bulk>
+                    <Mass>3.70</Mass>
                     <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
                 </statBases>
                 <costList>
-                    <Steel>30</Steel>
-                    <ComponentIndustrial>5</ComponentIndustrial>
+                    <Steel>40</Steel>
+                    <ComponentIndustrial>6</ComponentIndustrial>
                     <Chemfuel>10</Chemfuel>
                 </costList>
                 <Properties>
@@ -115,54 +119,58 @@
                     <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
                     <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                    <warmupTime>0.6</warmupTime>
+                    <warmupTime>0.5</warmupTime>
                     <range>25</range>
                     <soundCast>HRK_Shot_KRISSVectorSD</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
-                    <recoilAmount>1.73</recoilAmount>
+                    <recoilAmount>0.20</recoilAmount>
                 </Properties>
                 <AmmoUser>
                     <magazineSize>50</magazineSize>
-                    <reloadTime>4</reloadTime>
+                    <reloadTime>4.9</reloadTime>
                     <ammoSet>AmmoSet_9x19mmPara</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>Snapshot</aiAimMode>
-                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
                     <aimedBurstShotCount>3</aimedBurstShotCount>
                 </FireModes>
+                <weaponTags>
+                    <li>CE_SMG</li>
+                    <li>CE_AI_AssaultWeapon</li>
+                </weaponTags>
             </li>
 
             <!--===== HRK_KRISSVectorACP =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>HRK_KRISSVectorACP</defName>
                 <statBases>
-                    <WorkToMake>30700</WorkToMake>
+                    <WorkToMake>32500</WorkToMake>
                     <SightsEfficiency>1.1</SightsEfficiency>
-                    <ShotSpread>0.13</ShotSpread>
-                    <SwayFactor>0.89</SwayFactor>
-                    <Bulk>4.10</Bulk>
-                    <Mass>2.70</Mass>
-                    <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+                    <ShotSpread>0.15</ShotSpread>
+                    <SwayFactor>1.01</SwayFactor>
+                    <Bulk>4.50</Bulk>
+                    <Mass>3.50</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
                 </statBases>
                 <costList>
-                    <Steel>40</Steel>
-                    <ComponentIndustrial>5</ComponentIndustrial>
-                    <Chemfuel>15</Chemfuel>
+                    <Steel>30</Steel>
+                    <ComponentIndustrial>6</ComponentIndustrial>
+                    <Chemfuel>10</Chemfuel>
                 </costList>
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
                     <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-                    <burstShotCount>7</burstShotCount>
+                    <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                    <warmupTime>0.6</warmupTime>
+                    <warmupTime>0.5</warmupTime>
                     <range>25</range>
                     <soundCast>HRK_Shot_KRISSVectorACP</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
-                    <recoilAmount>1.31</recoilAmount>
+                    <recoilAmount>0.52</recoilAmount>
                 </Properties>
                 <AmmoUser>
                     <magazineSize>30</magazineSize>
@@ -171,41 +179,46 @@
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>Snapshot</aiAimMode>
-                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
                     <aimedBurstShotCount>3</aimedBurstShotCount>
                 </FireModes>
+                <weaponTags>
+                    <li>CE_SMG</li>
+                    <li>CE_AI_AssaultWeapon</li>
+                    <li>CE_OneHandedWeapon</li>
+                </weaponTags>
             </li>
 
             <!--===== HRK_KRISSVectorCharged =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>HRK_KRISSVectorCharged</defName>
                 <statBases>
-                    <WorkToMake>30900</WorkToMake>
-                    <SightsEfficiency>1.2</SightsEfficiency>
-                    <ShotSpread>0.13</ShotSpread>
-                    <SwayFactor>0.89</SwayFactor>
-                    <Bulk>5.10</Bulk>
-                    <Mass>2.7</Mass>
+                    <WorkToMake>47000</WorkToMake>
+                    <SightsEfficiency>1.1</SightsEfficiency>
+                    <ShotSpread>0.15</ShotSpread>
+                    <SwayFactor>0.93</SwayFactor>
+                    <Bulk>6.30</Bulk>
+                    <Mass>3.0</Mass>
                     <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
                 </statBases>
                 <costList>
                     <Steel>35</Steel>
                     <Plasteel>25</Plasteel>
-                    <Chemfuel>15</Chemfuel>
-                    <ComponentIndustrial>9</ComponentIndustrial>
+                    <Chemfuel>10</Chemfuel>
+                    <ComponentIndustrial>10</ComponentIndustrial>
                 </costList>
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
                     <defaultProjectile>Bullet_10x18mmCharged</defaultProjectile>
-                    <burstShotCount>7</burstShotCount>
+                    <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                     <warmupTime>0.5</warmupTime>
                     <range>35</range>
                     <soundCast>HRK_Shot_KRISSVectorCharged</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
-                    <recoilAmount>1.44</recoilAmount>
+                    <recoilAmount>0.78</recoilAmount>
                 </Properties>
                 <AmmoUser>
                     <magazineSize>50</magazineSize>
@@ -214,9 +227,13 @@
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>Snapshot</aiAimMode>
-                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
                     <aimedBurstShotCount>3</aimedBurstShotCount>
                 </FireModes>
+                <weaponTags>
+                    <li>CE_SMG</li>
+                    <li>CE_AI_AssaultWeapon</li>
+                </weaponTags>
             </li>
 
         </operations>
