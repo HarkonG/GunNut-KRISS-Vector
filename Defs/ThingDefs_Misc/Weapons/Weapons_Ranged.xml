@@ -26,7 +26,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>HRK_Reload_KRISSVector_a</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -103,7 +103,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>HRK_Reload_KRISSVector_a</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -198,7 +198,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>HRK_Reload_KRISSVector_a</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
