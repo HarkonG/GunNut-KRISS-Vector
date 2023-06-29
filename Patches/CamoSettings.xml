@@ -12,6 +12,12 @@
                     <texPath>Things/Weapons/HRK_KRISSVectorGenI/{KRISSVectorGenI_Camo}</texPath>
                 </value>
             </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenI"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_KRISSVectorGenI/{KRISSVectorGenI_Camo}</uiIconPath>
+                </value>
+            </Operation>
         </apply>
     </Operation>
 
@@ -26,6 +32,12 @@
                     <texPath>Things/Weapons/HRK_KRISSVectorGenII/{KRISSVectorGenII_Camo}</texPath>
                 </value>
             </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenII"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_KRISSVectorGenII/{KRISSVectorGenII_Camo}</uiIconPath>
+                </value>
+            </Operation>
         </apply>
     </Operation>
 
@@ -38,6 +50,12 @@
                 <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorACP"]/graphicData/texPath</xpath>
                 <value>
                     <texPath>Things/Weapons/HRK_KRISSVectorACP/{KRISSVectorACP_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorACP"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_KRISSVectorACP/{KRISSVectorACP_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>

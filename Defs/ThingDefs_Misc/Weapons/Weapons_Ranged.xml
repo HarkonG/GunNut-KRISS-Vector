@@ -25,6 +25,7 @@
       <texPath>Things/Weapons/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Tan</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
@@ -93,7 +94,7 @@
     </weaponTags>
   </ThingDef>
 
-  <!--===== HRK_KRISSVectorGenI =====-->
+  <!--===== HRK_KRISSVectorGenII =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_KRISSVectorGenII</defName>
     <label>KRISS Vector Gen.II</label>
@@ -102,6 +103,7 @@
       <texPath>Things/Weapons/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_White</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_White</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
@@ -197,6 +199,7 @@
       <texPath>Things/Weapons/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Black</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
@@ -289,6 +292,7 @@
       <texPath>Things/Weapons/HRK_KRISSVectorCharged</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_KRISSVectorCharged</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
