@@ -9,7 +9,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenI"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_KRISSVectorGenI/{KRISSVectorGenI_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenI/{KRISSVectorGenI_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
@@ -29,7 +29,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenII"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_KRISSVectorGenII/{KRISSVectorGenII_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenII/{KRISSVectorGenII_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
@@ -49,7 +49,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorACP"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_KRISSVectorACP/{KRISSVectorACP_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorACP/{KRISSVectorACP_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">

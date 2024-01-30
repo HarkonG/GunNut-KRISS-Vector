@@ -22,7 +22,7 @@
     <label>KRISS Vector</label>
     <description>The KRISS Vector is a series of weapons based upon the parent submachine gun design developed by the American company KRISS USA. They use the Super V system, an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Tan</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Tan</uiIconPath>
