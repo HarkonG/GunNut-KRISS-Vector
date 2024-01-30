@@ -100,7 +100,7 @@
     <label>KRISS Vector Gen.II</label>
     <description>The KRISS Vector is a series of weapons based upon the parent submachine gun design developed by the American company KRISS USA. They use the Super V system, an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_White</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_White</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_White</uiIconPath>
@@ -196,7 +196,7 @@
     <label>KRISS Vector ACP</label>
     <description>The KRISS Vector is a series of weapons based upon the parent submachine gun design developed by the American company KRISS USA. They use the Super V system, an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Black</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Black</uiIconPath>
@@ -289,7 +289,7 @@
     <label>Charge KRISS Vector</label>
     <description>The KRISS Vector is a series of weapons based upon the parent submachine gun design developed by the American company KRISS USA. They use the Super V system, an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb. \n\nThis KRISS Vector is modified to use pulse-charge technology which charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_KRISSVectorCharged</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorCharged</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_KRISSVectorCharged</uiIconPath>
