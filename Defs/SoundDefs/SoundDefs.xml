@@ -5,7 +5,7 @@
     <SoundDef>
         <defName>HRK_Shot_KRISSVectorACP</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -30,7 +30,7 @@
     <SoundDef>
         <defName>HRK_Shot_KRISSVector</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -55,7 +55,7 @@
     <SoundDef>
         <defName>HRK_Shot_KRISSVectorSD</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -80,7 +80,7 @@
     <SoundDef>
         <defName>HRK_Shot_KRISSVectorCharged</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
